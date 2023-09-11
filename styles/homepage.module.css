@@ -41,7 +41,7 @@
 }
 .title {
   width: 100%;
-  font-size: calc(200% + 1vw);
+  font-size: calc(250% + 1vw);
   color: rgb(0, 38, 74);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }

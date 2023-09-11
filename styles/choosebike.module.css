@@ -1,0 +1,83 @@
+.bikegrid {
+  position: absolute;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  background-image: url('../public/images/sparklogo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(3, 1fr); /* Three columns by default */
+}
+@media screen and (max-width: 600px) {
+  .bikegrid {
+      grid-template-columns: 1fr; 
+      grid-template-rows: repeat(3, 1fr);
+  }
+}
+.bike {
+  text-align: center;
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chronos {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../public/images/chronos.png');
+  background-size: cover;
+  background-position: center;
+  transition: height 1s ease-in;
+}
+.chronos:hover{
+  height: 100%;
+  cursor: pointer;
+}
+.atlas {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../public/images/atlas.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: height 1s ease-in;
+}
+.atlas:hover{
+  height: 100%;
+  cursor: pointer;
+}
+.fbs {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../public/images/fbs.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: height .8s ease-in;
+}
+.fbs:hover{
+  height: 100%;
+  cursor: pointer;
+}
+.bikelabel{
+  padding: 10px 25px;
+  width: 100%;
+  background-color: rgb(0,38,74);
+  border: 2px solid grey;
+  font-size: 22px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
