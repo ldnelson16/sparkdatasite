@@ -8,17 +8,17 @@ export default function HomePage() {
       <div className={bikestyles.bikegrid}>
         <div className={bikestyles.bike}>
           <div className={bikestyles.chronos}>
-            <div className={bikestyles.bikelabel}>CHRONOS</div>
+            <a href="/data/chronos" className={bikestyles.bikelabel}>CHRONOS</a>
           </div>
         </div>
         <div className={bikestyles.bike}>
           <div className={bikestyles.atlas}>
-            <div className={bikestyles.bikelabel}>ATLAS</div>
+            <a href="/data/atlas" className={bikestyles.bikelabel}>ATLAS</a>
           </div>
         </div>
         <div className={bikestyles.bike}>
           <div className={bikestyles.fbs}>
-            <div className={bikestyles.bikelabel}>FBS</div>
+            <a href="/data/fbs" className={bikestyles.bikelabel}>FBS</a>
           </div>
         </div>
       </div>
